@@ -108,7 +108,7 @@ public class EditorUtil {
             ThemeReader.readThemeSync(
                 "QuietLight.tmTheme", assets.open("textmate/QuietLight.tmTheme"));
       } else {
-        rawTheme = ThemeReader.readThemeSync("darcula.json", assets.open("textmate/darcula.json"));
+        rawTheme = ThemeReader.readThemeSync("codeassist.json", assets.open("textmate/codeassist.json"));
       }
       return createTheme(rawTheme);
     } catch (Exception e) {
