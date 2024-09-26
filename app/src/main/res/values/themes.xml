@@ -39,6 +39,7 @@
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="android:fontFamily">@font/opensans</item>
         
         <!-- to hide action bar -->
         <item name="windowNoTitle">true</item>
